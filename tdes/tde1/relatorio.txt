@@ -1,0 +1,49 @@
+Questão 1 - Respostas
+ A): Nome do modelo: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+ B): Tamanho de bloco de memória:  128M
+     Memória total online:    16G
+     Memória total offline:    0B
+ C): 
+sda           8:0    0 223,6G  0 disk 
+└─sda1        8:1    0 223,6G  0 part /storage
+nvme0n1     259:0    0 465,8G  0 disk 
+├─nvme0n1p1 259:1    0   500M  0 part /boot/efi
+└─nvme0n1p2 259:2    0 465,3G  0 part /
+
+ D): 
+  Network controller: Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31)
+  Audio device: Intel Corporation Cannon Point-LP High Definition Audio Controller (rev 30)
+ E): 
+  1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+  2: wlo1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+------------------------------------------------------------------------------------------------------------------
+Questão 2 - Respostas
+
+* pasta Home do usuário, esta pode ser definida durante a criação do mesmo, normalmente em /home/{username}
+* root (/)
+* pasta atual
+
+------------------------------------------------------------------------------------------------------------------
+Questão 3 - Respostas
+Caso 1
+* Inicia em 0.1% e após alguns segundos cai para 0.0% de uso da CPU 
+* Atinge 100% em 1 core do CPU
+
+Caso 2
+* Aprox 0.7%  e 0.0%
+
+
+Programa testemem.c
+
+./testemem  10000000000
+
+Utilizou 8.5% de memória e 0.0% de CPU
+
+
+
+
+
+
+
+
+
