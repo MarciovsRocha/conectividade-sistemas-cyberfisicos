@@ -131,6 +131,10 @@ def TrataCliente(conn, addr):
 # PROGRAMA PRINCIPAL
 #---------------------------------------------------------
 
+pydir=  os.path.dirname(os.path.realpath(__file__))
+print('Diretorio do script: ', pydir)
+os.chdir(pydir)
+
 print('Simple File Transfer Protocol Server\n')
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
