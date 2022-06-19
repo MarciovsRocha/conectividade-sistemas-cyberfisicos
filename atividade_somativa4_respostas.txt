@@ -1,0 +1,31 @@
+P: Indique a alternativa correta sobre o serviço de rede DHCP.
+R: Sua funcao é simplificar o processo de configuracao de computadores, e evitar que computadores diferentes recebam o mesmo endereço IP em uma LAN
+
+P: Varios servidores DNS podem operar em um esquema de replicação master-slave. O relacionamento entre os servidores é controlado pelos registros SOA (Start of Authority) e NS (Name Server). Sobre esses registros, indique a alterativa correta.
+R: SOA é o master e NS pode ser master ou slave
+
+P: Qual a alternativa que descreve corretamente como um usuário em Portugal, mesmo usando um servidor DNS local, consegue localizar o servidor Web da PUCPR?
+R:  O servidor em Portugal consulta o servidor BR, que indica qual o servidor DNS que responde pelo domínio PUCPR
+
+P: Sobre o serviço DHCP, indique a alternativa correta.
+R:
+    **  O servidor DHCP atribui um IP para um computador por um período de empréstimo. Ao final desse período, o endereco pode ser renovado a pedido do computador
+    **  Para usar o DHCP o cliente precisa saber o endereço IP do roteador que possui o serviço DHCP
+
+P: Em relação aos endereços IP denominados privados, indique a alternativa correta.
+R: A operadora é responsável por atribuir um IP público diferente para cada roteador, mas não precisa se preocupar com os IPs dos computadores porque são privados
+
+P: Ao ligar seu computador pela manhã, você percebeu que estava sem acesso a Web. Quando você digitou ipconfig, o endereço 169.254.33.12 apareceu. Qual a causa mais provável do problema?
+R: Você perdeu a conexão com o rotedor local que funciona como DHCP
+
+P: Indique o significado dos tipos de consulta que podem ser feitas a um servidor DNS.
+R:
+    A - ENDEREÇO IPV4 ASSOCIADO A UM FQDN
+    NS - NOME DOS SERVIDORES DNS QUE PODEM RESPONDER POR UM DOMÍNIO
+    MX - INFORMAÇÕES DOS SERVIDORES DE E-MAIL DE UM DOMÍNIO
+    SOA - INFORMAÇÕES SOBRE UM SERVIDOR MASTER DE UM DOMÍNIO
+
+P: O serviço DNS permite que as informações obtidas de uma consulta sejam guardadas em cache, evitando assim que a mesma pergunta tenha que ser feita pela rede se já foi efetuada anteriormente. Como é feito o controle de quanto tempo essas informações podem permanecer em cache?
+R:
+ **  É feita pelo servidor SOA responsável pelo domínio, através do campo TTL.
+ **  É utilizado um tempo fixo de 3 minutos
